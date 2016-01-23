@@ -1,0 +1,49 @@
+@import "reset";
+@import "normalize";
+
+/* YASSSSS MAI STYLZ */
+
+#top, #bottom, #left, #right {
+	background: #313538;
+	position: fixed;
+	}
+#left, #right {
+	top: 0; bottom: 0;
+	width: .5em;
+	}
+#left { left: 0; }
+#right { right: 0; }
+	
+#top, #bottom {
+	left: 0; right: 0;
+	height: .5em;
+	}
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+::selection {
+	background: #313538;
+	color: #F4F6F7;
+}
+
+body {
+	font-family: "acumin-pro-extra-condensed",sans-serif;
+	color: #313538;
+	background: #F4F6F7;
+}
+
+.container {
+	padding: 2em;
+	h1 {
+		font-size: 3.2em;
+	}
+	p {
+		font-size: 2.1em;
+		padding-top: .5em; 
+	}
+	a {
+		color: #313538;
+		text-decoration: none;
+		font-weight: 500;
+	}
+}
